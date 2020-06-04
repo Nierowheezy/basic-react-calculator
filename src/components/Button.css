@@ -1,0 +1,30 @@
+.button-wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.4em;
+  background-color: #e0e1e6;
+  color: #2f3994;
+  flex: 1;
+  outline: 0.6px solid rgb(136, 136, 136);
+  border: none;
+}
+
+.button-wrapper:hover {
+  background-color: #232b74;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #232b74;
+  color: #fff;
+}
+
+.operator:hover {
+  background-color: rgb(26, 33, 92);
+  color: #fff;
+}
